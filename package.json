@@ -4,13 +4,12 @@
   "description": "Economy bot created with quick.eco package in discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "npx node index.js"
+    "start": "node index.js"
   },
   "author": "RLX",
   "license": "",
   "keywords": [
     "discord",
-    "Easy",
     "Economy",
     "bot",
     "discord.js",
@@ -27,9 +26,7 @@
     "quick.eco": "^2.0.3"
   },
   "engines": {
-    "node": "16.x"
+    "node": "17.x"
   },
-  "devDependencies": {
-    "node": "^16.13.0"
-  }
+  "devDependencies": {}
 }
