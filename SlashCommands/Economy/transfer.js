@@ -18,7 +18,7 @@ options: [
         }
 ],
 run: async (client, interaction, args) => {
-  let member = interaction.options.getMember("member") 
+  let member = interaction.options.getMember("user") 
   let authordata = client.eco.fetchMoney(interaction.member.user.id) 
   let amount = interaction.options.getString("amount");
   if (isNaN(amount)) return interaction.followUp({ embeds: [new MessageEmbed().setTitle("").setDescription( 'Please enter a valid amount to transfer' )] });
