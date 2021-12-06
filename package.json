@@ -4,7 +4,7 @@
   "description": "Economy bot created with quick.eco package in discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npx node index.js"
   },
   "author": "RLX",
   "license": "",
