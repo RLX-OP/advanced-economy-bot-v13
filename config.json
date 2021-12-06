@@ -1,0 +1,10 @@
+{
+	"prefix": "?",
+	"owner": ["753168925167976479", "820142398935793685"],
+	"channel": "",
+	"invitelink": "https://discord.com/api/oauth2/authorize?client_id=904584670686105681&permissions=8&scope=bot%20applications.commands",
+	"server": "https://discord.gg/S8fC3MFMy3",
+	"economyemoji": "💸",
+	"infoemoji": "📌", 
+	"owneremoji": "👑"
+}
