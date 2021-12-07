@@ -28,4 +28,3 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install ascii-table@0.0.9 colors@1.4.0 discord.js@latest dotenv@latest express@4.17.1 moment@2.29.1 quick.eco@2.0.3
-    - run: npm test
