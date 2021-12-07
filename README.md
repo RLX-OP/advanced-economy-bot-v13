@@ -28,15 +28,20 @@
 
 You can support us by joining our **DISCORD SERVERS**
 - **RLX:**
-[https://discord.com/invite/SN3mZPxjEW](https://discord.com/invite/SN3mZPxjEW)
+[Support Server](https://discord.com/invite/SN3mZPxjEW)
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC3YKZAmjRJJMTUsYbhiAOAA?style=social)
+
+
 - **Bots University:**
-[https://discord.io/botsuniversity](https://discord.io/botsuniversity)
+[Support Server](https://discord.io/botsuniversity)
+
+
 - **Milrato Development:**
-[https://discord.gg/milrato](https://discord.gg/milrato)
+[Support Server](https://discord.gg/milrato)
 
 ## Project Owner:
-**𝐂𝐇 ⸙RLX†ˢᴬᴼ#9279** - https://discord.com/invite/SN3mZPxjEW
+**𝐂𝐇 ⸙RLX†ˢᴬᴼ#9279**
 
 
 ## Main Contributors:
-**MathisCool#8659** - https://discord.io/botsuniversity
+**MathisCool#8659**
