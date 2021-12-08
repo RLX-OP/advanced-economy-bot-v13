@@ -40,7 +40,7 @@ You can support us by joining our **DISCORD SERVERS**
 [Support Server](https://discord.gg/milrato)
 
 ## Project Owner:
-**𝐂𝐇 ⸙RLX†ˢᴬᴼ#9279**
+**𝐂𝐇 ⸙ RLX#9279**
 
 
 ## Main Contributors:
