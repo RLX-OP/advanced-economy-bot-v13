@@ -13,7 +13,7 @@ run: async (client, message, args) => {
   const x = client.db.get(`items_${message.author.id}`);
 if(!x) { return message.channel.send({ content: `No Items Found To Display` }); }
 const arrayToObject = x.reduce((itemsobj, x) => {
-    itemsobj[x.name] = (itemsobj[x.name] || 0) + 1;
+    itemsobj[x.name] = (itemsobj[x.name] || 0) + 3;
     return itemsobj;
 }, {});
 const result = Object.keys(arrayToObject).map(k => embed.setDescription(`Name: ${k}
