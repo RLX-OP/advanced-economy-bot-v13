@@ -13,7 +13,7 @@ module.exports = {
         run: async (client, interaction, args) => {
   let userBalance = client.eco.fetchMoney(interaction.member.user.id);
   if (userBalance.amount < 1) return interaction.followUp({ embeds: [new MessageEmbed().setTitle("").setDescription("Looks like you are poor." )] });
-  let item = args.join(" ")
+  let item = interaction.option.getString("item")
   if (!item) return interaction.followUp({ embeds: [new MessageEmbed().setTitle("").setDescription("What are you trying to buy?" )] });
   let hasItem = client.shop[item.toLowerCase()];
   if (!hasItem || hasItem == undefined) return interaction.followUp({ embeds: [new MessageEmbed().setTitle("").setDescription("That item doesn't exist lol." )] });
