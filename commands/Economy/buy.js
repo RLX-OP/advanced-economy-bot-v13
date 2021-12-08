@@ -7,7 +7,7 @@ module.exports = {
         run: async (client, message, args) => {
   let userBalance = client.eco.fetchMoney(message.author.id);
   if (userBalance.amount < 1) return message.channel.send({ embeds: [new MessageEmbed().setTitle("").setDescription( "Looks like you are poor.")] });
-  let item = args[0];
+  let item = args.join(" ");
   if (!item) return message.channel.send({ embeds: [new MessageEmbed().setTitle("").setDescription( "What are you trying to buy?")] });
   let hasItem = client.shop[item.toLowerCase()];
   if (!hasItem || hasItem == undefined) return message.reply({ embeds: [new MessageEmbed().setTitle("").setDescription( "That item doesnt exists lol" )] });
