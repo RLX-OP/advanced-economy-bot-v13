@@ -3,7 +3,7 @@ require('./server.js');//this is webserver for hosting it.
 const colors = require("colors");//console looks good with colors :)
 const { Client, Collection, Intents } = require('discord.js');//module to intract with discord 
 const { Manager, db } = require('quick.eco');//our economy module
-require('dotenv');//this is env for .env file to work
+require('dotenv').config();//this is env for .env file to work
 const client = new Client({
 	intents: 32767,
 	disableMentions: ['everyone', 'here'],
