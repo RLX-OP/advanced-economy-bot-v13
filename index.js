@@ -31,6 +31,9 @@ client.shop = {
 	},
 	watch: {
 		cost: 200
+	},
+	mystery_box: {
+		cost: 5000
 	}
 };
 
