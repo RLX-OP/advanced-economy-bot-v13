@@ -25,7 +25,13 @@ client.shop = {
 	},
 	computer: {
 		cost: 3000
-	} 
+	},
+        shoes: {
+		cost: 500
+	},
+	watch: {
+		cost: 200
+	}
 };
 
 ['commands', 'events', 'slashcommands'].forEach(handler => {
