@@ -16,8 +16,8 @@
 - in `config.json` Adjust the PREFIX, OWNER ID, INVITELINK, SERVER, EMOJIS, ETC.
 - in `.env` Adjust the TOKEN
 - `npm install` to Install the dependencies
-- `npm install -D node@17` to Install node v17
-- `npx node index.js` to start the Bot
+- `npm install -D node@17` to Install node.js v17
+- `npx node index.js` or `node index.js` to start the Bot
 
 <br/>
 
